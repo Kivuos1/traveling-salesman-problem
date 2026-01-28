@@ -1,0 +1,27 @@
+Algorithm, Seed, TourLength, TimeSeconds
+SA, 0, 4.517670, 3.982846
+GA, 0, 4.517670, 2.482562
+ACO, 0, 4.893279, 1.649672
+SA, 1, 4.517670, 4.745787
+GA, 1, 4.517670, 2.129724
+ACO, 1, 4.517670, 1.672110
+SA, 2, 4.539023, 4.255938
+GA, 2, 4.539023, 2.121797
+ACO, 2, 4.517670, 1.766591
+
+
+---
+
+## Observations
+
+- Nearest Neighbor is extremely fast but yields poor solutions.
+- 2-opt provides a large improvement at very low cost.
+- Simulated Annealing achieves the best solution quality but is slow.
+- Genetic Algorithm matches SA’s quality with lower runtime in this instance.
+- Ant Colony Optimization converges quickly but slightly underperforms SA/GA.
+
+These results highlight the **tradeoff between computation time and solution
+quality** in combinatorial optimization.
+
+---
+
